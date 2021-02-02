@@ -8,7 +8,11 @@
     <link rell="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <header>
+    <header style="
+    float: right;
+    background-color: antiqueWhite;
+    border: 4px dashed;
+    ">
         <div class="headerWrapper">
             <!--Login Menu-->
             <nav id="utilityMenu">
@@ -35,7 +39,10 @@
     </header>
       
     <div class="contentWrapper">
-    <section id="sidebar">
+    <section id="sidebar" style="
+    background-color: lightslategrey;
+    border: 7px inset #1C6EA4;
+    ">
         <!--Sidebar Text-->
             <h1>Our Story</h1>
             <p>Bees are fascinating little creatures! With over 20,000 bee species worldwide, the one people are probably most familiar is the honey bee. Honey bees are among the few types of social bees. They live in colonies and construct vertical wax combs with individual hexagonal cells for storing honey, pollen and developing bees.</p>
@@ -54,30 +61,48 @@
     </section> <!--Sidebar Closing Tag-->
     </div>
     
-    <section id="main">
+    <section id="main" style="
+    background-image: url(img/Background.jpg)
+    ">
         <!--Main Section-->
         <h2>Shop Our Products</h2>
         <!--Four Products-->
         <div class="panel">
-            <img src="img/frame-harirak-pESI75iiZd4-unsplash.jpg" class="productType" alt="product" style="width: 230px" style="height: 170px;" />
+            <img src="img/frame-harirak-pESI75iiZd4-unsplash.jpg" class="productType" alt="product" style="
+                width: 230px; 
+                height: 170px;
+                box-shadow: -6px -8px 20px 8px #000000;" 
+            />
             <h2>HomeMade and Grown Products</h2>
             <p>Delicious Jellies and Jams made from homegrown plants and trees with no harsh chemicals.</p>
             <button>Add to Cart</button>
         </div>
         <div class="panel">
-            <img src="img/jar-of-honey.jpg" class="productType" alt="product" style="width: 230px" style="height: 170px;" />
+            <img src="img/jar-of-honey.jpg" class="productType" alt="product" style="
+                width: 230px;
+                height: 170px;
+                box-shadow: 18px 8px 20px 8px #000000;"
+            />
             <h2>Products Made with a Little Help</h2>
             <p>All of our honey is produced by us, The only help we recieve is from all of our little winged friends.</p>
             <button>Add to Cart</button>
         </div>
         <div class="panel">
-            <img src="img/beautiful-red-apple.jpg" class="productType" alt="product" style="width: 230px" style="height: 170px;" />
+            <img src="img/beautiful-red-apple.jpg" class="productType" alt="product" style="
+                width: 230px; 
+                height: 170px;
+                box-shadow: -4px 17px 20px 8px #000000;" 
+            />
             <h2>From The Ground</h2>
             <p>Our apple trees are ready to have some visitors and always produce the best apples for pies, carmel apples, and much more.</p>
             <button>Add to Cart</button>
         </div>
         <div class="panel">
-            <img src="img/cherry-pie.jpg" class="productType" alt="product" style="width: 230px" style="height: 170px;" />
+            <img src="img/cherry-pie.jpg" class="productType" alt="product" style="
+                width: 230px; 
+                height: 170px;
+                box-shadow: -17px 14px 20px 8px #000000;" 
+            />
             <h2>Family Traditions</h2>
             <p>Enjoy a delicious homemade pie with a crust recipie have has been passed down for generations!</p>
             <button>Add to Cart</button>
@@ -85,7 +110,10 @@
     </section>
     <div class="clear"></div>
     <!--Start of Fotter Code-->
-    <footer>
+    <footer style="
+    background-color: bisque;
+    border-block: 2px solid black;
+    ">
         <!--Legal and Navigational Items-->
         <span>&copy;2019</span>
         <ul id="menufooter">
